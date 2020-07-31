@@ -65,6 +65,7 @@ body h3 {
         background: white !important;
     }
     .container {
+        position: relative;
         width: 100%;
         .navbar-brand {
             display: flex;
@@ -76,11 +77,22 @@ body h3 {
             }
         }
     }
+    .show {
+        position: absolute;
+        z-index: 1;
+        background-color: #1d1d1d;
+        width: 100%;
+        top: 100%;
+        box-shadow: #1d1d1d 0px 5px 3px;
+    }
     .navbar-toggler {
         cursor: pointer;
         outline: 0;
         position: absolute;
         left: 20px;
+    }
+    .navbar-toggler[aria-expanded=true] {
+        top: 0
     }
     .navbar button {
         background-color: #45b2cd;
@@ -346,7 +358,7 @@ body h3 {
 
 /*INTRO*/
 
-.img-intro {
+.img-hero {
     background: url(../img/intro.jpg);
     background-size: cover;
     background-position: center;
@@ -357,32 +369,27 @@ body h3 {
         margin-top: 0px;
         text-align: center;
         h3::before {
-            margin-left: 300px;
-            @media (max-width: 992px) {
-                margin-left: 450px;
-            }
-            @media (max-width: 768px) {
-                margin-left: 280px;
-            }
-            @media (max-width: 576px) {
-                margin-left: 180px;
-            }
+            content: "";
+            left: 0;
+            right: 49px;
+            margin: auto;
         }
         h3::after {
-            margin-left: 300px;
-            @media (max-width: 992px) {
-                margin-left: 450px;
-            }
-            @media (max-width: 768px) {
-                margin-left: 280px;
-            }
-            @media (max-width: 576px) {
-                margin-left: 180px;
-            }
+            content: "";
+            left: 49px;
+            right: 0;
+            margin: auto;
         }
     }
     .intro_des {
         padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        figure {
+            position: relative;
+        }
     }
     .row_wrap {
         padding: 0px 15px;
