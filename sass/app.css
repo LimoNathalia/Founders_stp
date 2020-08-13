@@ -10929,6 +10929,10 @@ a {
 }
 
 /* NAVBAR*/
+.kode_navigation .pointer {
+  cursor: pointer;
+}
+
 .kode_navigation .fa-bars {
   background-color: #45b2cd;
   color: #fff;
