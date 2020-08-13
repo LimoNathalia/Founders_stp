@@ -10913,6 +10913,10 @@ a {
 }
 
 /*PADDINGS*/
+.pr-6 {
+  padding-right: 4rem;
+}
+
 /* TOP BAR */
 .top_bar {
   background: #45b2cd;
