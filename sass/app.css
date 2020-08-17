@@ -23814,12 +23814,12 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 3.125rem;
 }
 
 @media (max-width: 1200px) {
   h2, .h2 {
-    font-size: calc(1.325rem + 0.9vw) ;
+    font-size: calc(1.4375rem + 2.25vw) ;
   }
 }
 
