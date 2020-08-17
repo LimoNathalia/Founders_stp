@@ -319,83 +319,89 @@ a {
             top: 5px;
         }
     }
-    .color-1 {
-        border-right-color: $border-color-1;
-        &:hover {
-            background-color: $color-1 !important;
-            transition: 0.3s ease-in-out;
-            * {
-                color: white;
-            }
-        }
-        i {
-            color: $color-1;
+}
+
+.color-1 {
+    border-color: #0eb053!important;
+    &:hover {
+        background-color: theme-color("color-1")!important;
+        transition: 0.3s ease-in-out;
+        * {
+            color: white;
         }
     }
-    .color-2 {
-        border-color: $border-color-2;
-        &:hover {
-            background-color: $color-2 !important;
-            transition: 0.3s ease-in-out;
-            * {
-                color: white;
-            }
-        }
-        i {
-            color: $color-2;
+    i {
+        color: theme-color("color-1");
+    }
+}
+
+.color-2 {
+    border-color: $border-c-2 !important;
+    &:hover {
+        background-color: theme-color("color-2")!important;
+        transition: 0.3s ease-in-out;
+        * {
+            color: white;
         }
     }
-    .color-3 {
-        border-color: $border-color-3;
-        &:hover {
-            background-color: $color-3 !important;
-            transition: 0.3s ease-in-out;
-            * {
-                color: white;
-            }
-        }
-        i {
-            color: $color-3;
+    i {
+        color: theme-color("color-2");
+    }
+}
+
+.color-3 {
+    border-color: $border-c-3 !important;
+    &:hover {
+        background-color: theme-color("color-3")!important;
+        transition: 0.3s ease-in-out;
+        * {
+            color: white;
         }
     }
-    .color-4 {
-        border-color: $border-color-4;
-        &:hover {
-            background-color: $color-4 !important;
-            transition: 0.3s ease-in-out;
-            * {
-                color: white;
-            }
-        }
-        i {
-            color: $color-4;
+    i {
+        color: theme-color("color-3");
+    }
+}
+
+.color-4 {
+    border-color: $border-c-4 !important;
+    &:hover {
+        background-color: theme-color("color-4")!important;
+        transition: 0.3s ease-in-out;
+        * {
+            color: white;
         }
     }
-    .color-5 {
-        border-color: $border-color-5;
-        &:hover {
-            background-color: $color-5 !important;
-            transition: 0.3s ease-in-out;
-            * {
-                color: white;
-            }
-        }
-        i {
-            color: $color-5;
+    i {
+        color: theme-color("color-4");
+    }
+}
+
+.color-5 {
+    border-color: $border-c-5 !important;
+    &:hover {
+        background-color: theme-color("color-5")!important;
+        transition: 0.3s ease-in-out;
+        * {
+            color: white;
         }
     }
-    .color-6 {
-        border-color: $border-color-6;
-        &:hover {
-            background-color: $color-6 !important;
-            transition: 0.3s ease-in-out;
-            * {
-                color: white;
-            }
+    i {
+        color: theme-color("color-5");
+    }
+}
+
+.color-6 {
+    border-color: $border-c-6 !important;
+    &:hover {
+        background-color: theme-color("color-6")!important;
+        transition: 0.3s ease-in-out;
+        * {
+            color: white;
         }
-        i {
-            color: $color-6;
-        }
+    }
+    i {
+        color: theme-color("color-6");
     }
 }
 
