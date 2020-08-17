@@ -22851,6 +22851,10 @@ a {
   background-color: #45b2cd;
 }
 
+.navbar-brand img {
+  max-height: 50px;
+}
+
 /*SHOWCASE*/
 .main-wrap figure {
   position: relative;
