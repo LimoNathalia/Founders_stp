@@ -1,7 +1,4 @@
-function openNav() {
-    document.getElementById("responsive_nav").style.width = "350px";
-}
+import "./sass/app.scss";
+import "./js/app.js";
 
-function closeNav() {
-    document.getElementById("responsive_nav").style.width = "0";
-}
+
